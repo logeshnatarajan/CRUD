@@ -23,7 +23,7 @@ type Director struct {
 var movies []Movie
 
 func main() {
-
+	// every thing starts here
 	r := mux.NewRouter()
 
 	movies = append(movies, Movie{ID: "001", Name: "RRR", Director: &Director{Firstname: "RAJA", Lastname: "MOLI"}})
