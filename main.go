@@ -25,7 +25,7 @@ var movies []Movie
 func main() {
 	// initialisation of mux for routing..
 	r := mux.NewRouter()
-	// appending some data's to view 
+	// appending some data to view that beginning 
 	movies = append(movies, Movie{ID: "001", Name: "RRR", Director: &Director{Firstname: "RAJA", Lastname: "MOLI"}})
 	movies = append(movies, Movie{ID: "002", Name: "BB", Director: &Director{Firstname: "RAJAN", Lastname: "MOOLII"}})
         // common endpoints in every application 
