@@ -3,4 +3,4 @@ Simple CRUD operation
 
 FrameWork: Gorilla Mux
  
-Easy for beginners to understand 
+Easy for beginners to learn understand 
