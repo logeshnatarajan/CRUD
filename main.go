@@ -28,7 +28,7 @@ func main() {
 	// appending some data to view that beginning 
 	movies = append(movies, Movie{ID: "001", Name: "RRR", Director: &Director{Firstname: "RAJA", Lastname: "MOLI"}})
 	movies = append(movies, Movie{ID: "002", Name: "BB", Director: &Director{Firstname: "RAJAN", Lastname: "MOOLII"}})
-        // common endpoints in every application out there
+        // common endpoints in every application
 	r.HandleFunc("/movies", getmovies).Methods("GET")
 	r.HandleFunc("/movies/{id}", getmovie).Methods("GET")
 	r.HandleFunc("/movies", creatmovies).Methods("POST")
